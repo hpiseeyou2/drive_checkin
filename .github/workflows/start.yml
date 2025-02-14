@@ -4,7 +4,8 @@ name: Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: 20 5 * * *
+    - cron: 15 0 * * *
+     timezone: 'Asia/Shanghai'  # 可选时区配置
 
 
 jobs:
