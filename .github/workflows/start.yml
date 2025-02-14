@@ -4,9 +4,8 @@ name: Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: 15 0 * * *
-     timezone: 'Shanghai'
-
+    - cron: 25 8 * * *
+     
 
 jobs:
     build:
